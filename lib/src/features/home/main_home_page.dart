@@ -8,8 +8,8 @@ import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import '../features.dart';
 import 'cubit/package_data_cubit.dart';
 
-class MianHome1 extends StatelessWidget {
-  const MianHome1({Key? key}) : super(key: key);
+class LandingPage extends StatelessWidget {
+  const LandingPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

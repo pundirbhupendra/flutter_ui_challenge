@@ -122,11 +122,11 @@ class _CommonDrawerPageState extends State<CommonDrawerPage> {
         )
       ],
       builder: (context, id) => IndexedStack(index: id, children: [
-        Visibility(visible: id == 0, child: MainHomePage()),
-        Visibility(visible: id == 1, child: SizedBox()),
+        Visibility(visible: id == 0, child: const MainHomePage()),
+        Visibility(visible: id == 1, child: const SizedBox()),
         Visibility(
           visible: id == 2,
-          child: SizedBox(),
+          child: const SizedBox(),
         ),
       ]),
     );

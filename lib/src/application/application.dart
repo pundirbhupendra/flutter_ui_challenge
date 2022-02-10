@@ -13,7 +13,7 @@ class Application extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-       home:  MianHome1(),
+       home:  LandingPage(),
       );
   }
 }
